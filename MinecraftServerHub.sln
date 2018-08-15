@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MinecraftServerHub", "MinecraftServerHub\MinecraftServerHub.shproj", "{C1472F92-723D-4B45-8F51-D370963B1CDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MinecraftServerHub.App", "MinecraftServerHub.App\MinecraftServerHub.App.csproj", "{C48A66B5-259D-44D8-9FAA-7166928A52B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftServerHub.NTService", "MinecraftServerHub.NTService\MinecraftServerHub.NTService.csproj", "{CA6402D7-5C3A-4D41-A67E-92C5A24711DC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MinecraftServerHub\MinecraftServerHub.projitems*{c1472f92-723d-4b45-8f51-d370963b1cda}*SharedItemsImports = 13
+		MinecraftServerHub\MinecraftServerHub.projitems*{ca6402d7-5c3a-4d41-a67e-92c5a24711dc}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C48A66B5-259D-44D8-9FAA-7166928A52B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48A66B5-259D-44D8-9FAA-7166928A52B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48A66B5-259D-44D8-9FAA-7166928A52B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48A66B5-259D-44D8-9FAA-7166928A52B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6402D7-5C3A-4D41-A67E-92C5A24711DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6402D7-5C3A-4D41-A67E-92C5A24711DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6402D7-5C3A-4D41-A67E-92C5A24711DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6402D7-5C3A-4D41-A67E-92C5A24711DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6451C1BC-F10E-4970-921C-05F1D14DBD5B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>c1472f92-723d-4b45-8f51-d370963b1cda</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>MinecraftServerHub</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\DisconnectPacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)EnvGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)FileLog.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\HandshakePacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IParameterGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\LoginStartPacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MainGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\Packet.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\PacketSelector.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ParameterParser.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\PingPongPacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\RequestPacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Packet\ResponsePacket.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServerShadow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServerHub.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServerRecord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ServiceSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SetsGroup.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SystemLog.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Packet\" />
+  </ItemGroup>
+</Project>
