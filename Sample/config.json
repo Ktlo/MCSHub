@@ -1,0 +1,26 @@
+
+{
+  "address": "0.0.0.0",
+  "port": 25565,
+  "default": {
+    "login": "Default/Login.json",
+    "status": "Default/Status.json",
+    "log": "Default/Log.txt"
+  },
+  "servers": [
+    {
+      "address": "123.123.123.123",
+      "port": 25565,
+      "mask": "mc.example.com",
+      "status": "Example/Status.json",
+      "login": "Example/Login.json",
+      "log": "Example/Log.txt",
+      "sets": [
+        {
+          "Key": "name",
+          "Value": "Minecraft Server Hub Example"
+        }
+      ]
+    }
+  ]
+}

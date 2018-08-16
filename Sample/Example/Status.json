@@ -1,0 +1,22 @@
+
+{
+  "version": {
+    "name": "MCSHub",
+    "protocol": ${ hs:protocol }
+                },
+  "players": {
+    "max": 5,
+    "online": 1,
+    "sample": [
+      {
+        "name": "Herobrine",
+        "id": "$uuid"
+      }
+    ]
+  },
+  "description": {
+    "text": "${ sets:name }",
+    "color": "gold"
+  },
+  "favicon": "${ file:Example/Icon.txt }"
+}

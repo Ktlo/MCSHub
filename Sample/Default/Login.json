@@ -1,0 +1,7 @@
+
+[
+  {
+    "text": "Server ${hs:address}:${hs:port} doesn't exist!",
+    "color": "red"
+  }
+]
