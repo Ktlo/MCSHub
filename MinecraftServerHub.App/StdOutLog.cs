@@ -21,22 +21,22 @@ namespace MinecraftServerHub.App
         
         public override void WriteDebug(string line)
         {
-            WriteColor(ConsoleColor.Gray, $"[Debug] {line}");
+            WriteColor(ConsoleColor.Gray, $"[Debug]: {line}");
         }
 
         public override void WriteError(string line)
         {
-            WriteColor(ConsoleColor.DarkRed, $"[Error] {line}");
+            WriteColor(ConsoleColor.DarkRed, $"[Error]: {line}");
         }
 
         public override void WriteInfo(string line)
         {
-            Write($"[Info] {line}");
+            Write($"[Info]: {line}");
         }
 
         public override void WriteWarn(string line)
         {
-            WriteColor(ConsoleColor.DarkYellow, $"[Warn] {line}");
+            WriteColor(ConsoleColor.DarkYellow, $"[Warn]: {line}");
         }
     }
 }
