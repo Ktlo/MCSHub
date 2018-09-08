@@ -122,8 +122,9 @@ namespace MinecraftServerHub.Packet
             return i;
         }
 
-        protected void WriteVarInt(int value)
+        protected void WriteVarInt(int ivalue)
         {
+            uint value = (uint)ivalue;
             do
             {
                 byte temp = (byte)(value & 0b01111111);
