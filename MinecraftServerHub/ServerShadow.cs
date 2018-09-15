@@ -42,7 +42,14 @@ namespace MinecraftServerHub
             if (destination != null)
             {
                 client = new TcpClient();
-                connection = client.ConnectAsync(destination.Address, destination.Port);
+                try
+                {
+                    connection = client.ConnectAsync(destination.Address, destination.Port);
+                }
+                catch (Exception)
+                {
+                    connection = null;
+                }
             }
             var parser = new ParameterParser(new KeyValuePair<string, IParameterGroup>[]
             {
@@ -84,7 +91,7 @@ namespace MinecraftServerHub
                     client.Close();
                     return;
                 }
-                catch (AggregateException) { }
+                catch (Exception) { }
             }
             var selector = new PacketSelector(stream);
             switch (handshake.State)

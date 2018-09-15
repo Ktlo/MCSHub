@@ -100,11 +100,14 @@ namespace MinecraftServerHub
                             server = standard;
                         server.NewConnetcion(handshake, endPoint, stopTask);
                         stream.Close();
-                        client.Close();
                     }
                     catch (Exception exception)
                     {
                         Log.WriteWarn(exception.Message);
+                    }
+                    finally
+                    {
+                        client.Close();
                     }
                 });
             }
